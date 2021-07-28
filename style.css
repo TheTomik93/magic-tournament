@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+#navbar{
+    height: 60px;
+    display: flex;
+    background-color: black;
+    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+#navbar div{
+    border: 1px solid white;
+    font-size: 2.5rem;
+    color: white;
+}
+#tabulka{
+    display: grid;
+    border: 3px solid red;
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    margin: 50px;
+}
+.grid-item{
+    border: 1px solid yellow;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    color: violet;
+}
+#midsection{
+    color: white;
+    margin: auto;
+}
