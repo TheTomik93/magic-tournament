@@ -34,6 +34,12 @@
     height: 100px;
     margin: auto;
     color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-item p{
+    margin: auto;
 }
 #midsection{
     color: white;
